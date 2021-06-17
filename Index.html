@@ -19,33 +19,46 @@
  
 <body>
   <!--Navmenu-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="https://www.facebook.com/La-Anticuaria-medell%C3%ADn-1922430104644926"><img src="Images/Logo anticuaria.png" alt="Logo"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="titulo"> </div>
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="Nosotros.html">Nosotros</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Productos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Ubicación</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contactenos</a>
-              </li>
-            </ul>
-          </div>
-          <a href="https://www.youtube.com/channel/UCTXgwfljUuSkBi-HKnJjsHA/videos?view_as=subscriber"><img src="Images/Logo anticuaria.png" alt="Logo"></a>
-          
-        </div>
-    </nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="https://www.facebook.com/La-Anticuaria-medell%C3%ADn-1922430104644926"><img src="Images/Logo anticuaria.png" alt="Logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Ubicación</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contactenos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Productos</a>
+          </li>
+          <li id="redes">
+            <a href="https://www.facebook.com/La-Anticuaria-medell%C3%ADn-1922430104644926"><img src="Images/fb.png" alt="Facebook"></a>
+          </li>
+          <li id="redes">
+            <a href="https://www.instagram.com/medellinlaanticuaria/"><img src="Images/ins.png" alt="Instagram"></a>
+          </li>
+          <li id="redes">
+            <a href="https://api.whatsapp.com/send?phone=573136862348&fbclid=IwAR3XIGsfR_pqmNAoYe2UHTU7Bcm4ItLxr__MlUja4dWEmPWGaVlK3kN915c"><img src="Images/wsp.png" alt="Whatsapp"></a>
+          </li>
+          <li id="redes">
+            <a href="(4) 3473880"><img src="Images/telefono.png" alt="Telefono"></a>
+          </li>
+        </ul>
+      </div>
+      <a href="https://www.youtube.com/channel/UCTXgwfljUuSkBi-HKnJjsHA/videos?view_as=subscriber"><img src="Images/Logo anticuaria.png" alt="Logo"></a>
+    </div>
+  </nav>
   <!--Titulo-->  
   <div class="contenedor">
     <img class="fondo" src="Images/libros.jpg" alt="Libros" >
@@ -58,44 +71,46 @@
     </div>
  </div>
  <!--Slider-->
- <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+ <div class="container-fluid">
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Images/Im1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Images/im2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Images/im3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="Images/Im1.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="Images/im2.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="Images/im3.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-      </div>
-    </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-</div>
+ </div>
 <!--Enlace Bootstrap JS-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 
  <!--Tarjetas-->
-<h2>Los más vendidos</h2>  
+<h2 id="ad">Los más vendidos</h2>  
  <div class="contenedor">
   <div class="contenedor_tarjeta">
     <a href="http://www.librerialaanticuaria.com">
@@ -143,7 +158,7 @@
 </div>
 
 <!--Tarjetas-->
-<h2>A mitad de precio</h2>  
+<h2 id="ad">A mitad de precio</h2>  
  <div class="contenedor">
   <div class="contenedor_tarjeta">
     <a href="http://www.librerialaanticuaria.com">
