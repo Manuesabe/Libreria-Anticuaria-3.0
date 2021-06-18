@@ -14,6 +14,7 @@
   font-family:'Pattaya', sans-serif;
   text-align: center;
   display: inline;
+  background-color: linear-gradient(145deg, #fc7366 0, #f15c60 25%, #e03d57 50%, #ce0d50 75%, #c0004d 100%);;
 }
 .texto-encima{
   position: absolute;
@@ -31,6 +32,7 @@
 .fondo{
   width: 100%;
   height: 300px;
+  background-color: linear-gradient(145deg, #fc7366 0, #f15c60 25%, #e03d57 50%, #ce0d50 75%, #c0004d 100%);
 }
 /*--Barra Nav--*/
 
@@ -49,13 +51,23 @@
 #navbarSupportedcontent{
   text-align: center;
   display: inline-block;
+    width: 100%;
+    overflow: hidden;
 }
-a.nav-link{
-  text-align: center;
+
+.navbar-nav  {
+  display: block;
+  width: 100%;
+  overflow: hidden;
 }
+
 .navbar-nav img{
   width: 50px;
   height: 50px;
+}
+.navbar-nav {
+  padding: .7em;
+  float: none;   
 }
 .nav-item{
   margin-right: 60px;
@@ -65,9 +77,54 @@ a.nav-link{
   text-align: center;
   padding-left: 30px;
 }
-/*--Ponerle animacion a los botones del nav, se me olvido :3--*/
-:hover{
-  fdg
+.navbar-nav ul{
+  margin: 80px 0 20px 0;
+  padding: .7em;
+  float: left;
+  list-style: none;
+  background: #444;
+  background: rgba(0,0,0,.2);
+  border-radius: .5em;    
+  box-shadow: 0 1px 0 rgba(255,255,255,.2), 0 2px 1px rgba(0,0,0,.8) inset; 
+}
+
+.navbar-nav a {
+  float:left;
+  padding: .8em 1.5em;
+  text-decoration: none;
+  color: #555;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5);
+  font: bold 1.1em/1 'trebuchet MS', Arial, Helvetica;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #fff #ccc #999 #eee;
+  background: #c1c1c1;
+  background: linear-gradient(#f5f5f5, #c1c1c1);            
+}
+
+.navbar-nav a:hover, nav a:focus {
+  outline: 0;
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0,0,0,.2);
+  background: #fac754;
+  background: linear-gradient(#fac754, #f8ac00);
+}
+.navbar-nav a:active {
+  box-shadow: 0 0 2px 2px rgba(0,0,0,.3) inset;
+}
+
+.navbar-nav li:first-child a {
+  border-left: 0;
+  border-radius: 4px 0 0 4px;            
+}
+.navbar-nav li {
+  float:left;
+}
+.navbar-nav li:last-child a {
+  border-right: 0;
+  border-radius: 0 4px 4px 0;            
 }
 /*--Slider--*/
 
@@ -232,7 +289,7 @@ a {
 }
 
 .contenedor {
-	max-width: 1200px;
+	max-width: 1000px;
 	margin:50px auto;
 	display: flex;
 	flex-direction: row;
