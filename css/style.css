@@ -413,10 +413,22 @@ figure .trasera p {
 	}
 
 /*--footer--*/
+footer{
+  background-color: #000000 !important;
 
-.
+}
+#fred{
+  width: 100px;
+  height: 100px;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+h2{
+  text-align: center;
+}
+
 /*--end footer--*/
- .animate-border {
+.animate-border {
 position: relative;
 display: block;
 width: 115px;
@@ -658,5 +670,6 @@ z-index: 2; }
     background: #FA6742;
     border-color: #FA6742; 
  }
+
 
 
